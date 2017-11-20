@@ -44,6 +44,8 @@ Discuss the assumptions you can make about the data to justify your analysis.  Y
 
 Your final report, when completed, may well diverge your initial plan as submitted in hw3. Discuss any changes you made from this plan and why you chose to pursue new questions or modify your original ones.
 
+**Author Contributions section:** your `main.ipynb` notebook should contain, at the end, a brief section titled *Author Contributions*. This section should indicate, for each team member, what they did in the project. It doesn't have to be a long, detailed story, a few sentences per person should suffice.  All team members must agree to the language in this section.  (By the way, this is standard practice in many scientific journals).
+
 
 ### Reproducibility support
 
