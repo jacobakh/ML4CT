@@ -1,5 +1,14 @@
-# Your Title here
+# Deep Learning for Counterterrorism 
 
+## Details 
+
+This is a final project for Statistics 159 during the Fall 2017. In this project, we blah blah blah ... (TODO)
+
+**Authors**: Akhil Jalan, Paul Kim, Yakub Akhmenerov 
+
+**Dataset**: 
+
+## Instructions 
 This readme should be written by you, providing a high-level summary for newcomers of what the repository is about, what's where, and what to do to either read the main article or run the various analyses.
 
 You don't need to replicate your main scientific narrative here, a repository README is meant to convey to anyone who finds your repo a few high-level things, for example:
