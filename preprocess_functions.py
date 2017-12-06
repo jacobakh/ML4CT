@@ -56,4 +56,3 @@ def get_dummies(df, columns):
     for column in columns[1:]:
         output = output.join(pd.get_dummies(df[column], prefix=column))
     return output
-    
