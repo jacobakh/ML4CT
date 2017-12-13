@@ -86,6 +86,7 @@ if __name__ == '__main__':
 	#It's safe to remove this line if you want. We included it to make output less confusing.
 	warnings.filterwarnings("ignore")
 
+	print('Running unit tests...')
 	try: 
 		correct_filenames()
 		raw_data_loads()
