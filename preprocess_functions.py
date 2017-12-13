@@ -1,12 +1,15 @@
 import pandas as pd
 
 '''Change these filepaths depending on your local setup.
-We split the original file into two because Github 
-does not allow uploading of files over 100Mb'''
+
+WARNING: If you change the names of the csv files, you will fail the 
+correct_filenames() tests in test.py.'''
+
 FILEPATH_1 = 'data/globalterrorismdb_0617dist_1.csv'
 FILEPATH_2 = 'data/globalterrorismdb_0617dist_2.csv'
 
 #Names of columns that we don't use. Change as desired. 
+
 unused_cols = ['approxdate', 'resolution', 'eventid', 'extended', 'resolution', 
                 'vicinity', 'location', 'summary', 'crit1', 'crit2', 'crit3', 'doubtterr', 
                 'alternative', 'alternative_txt', 'multiple', 'suicide', 'attacktype2', 
@@ -24,9 +27,6 @@ unused_cols = ['approxdate', 'resolution', 'eventid', 'extended', 'resolution',
                 'ransompaid', 'ransompaidus', 'ransomnote', 'hostkidoutcome', 'hostkidoutcome_txt', 
                 'nreleased', 'addnotes', 'scite1', 'scite2', 'scite3', 'dbsource', 'INT_LOG', 
                 'INT_IDEO', 'INT_MISC', 'INT_ANY', 'related']
-
-#format for dummy variables 
-# raw.join(pd.get_dummies(raw.targtype1_txt, prefix='target'))
 
 def load_raw_data(): 
     '''
@@ -56,4 +56,9 @@ def get_dummies(df, columns):
     for column in columns[1:]:
         output = output.join(pd.get_dummies(df[column], prefix=column))
     return output
-    
+
+def get_filepaths(): 
+    '''
+    Returns filepaths to the data CSV files. Used in tests.py. 
+    '''
+    return FILEPATH_1, FILEPATH_2
