@@ -9,7 +9,18 @@ In this project, we sought to analyze what factors lead terrorist attacks to suc
 
 ## Instructions 
 
-### Files Explanation
+### Installation Instructions 
+
+After cloning the repository to your machine, simply run the following commands from your terminal. 
+
+```
+make env
+source activate ct_env
+make test
+make run
+```
+
+### Navigating the Repo
 
 The notebook ```main.ipynb``` contains a summary and exposition of our work. We recommend you start there, and then branch out to whatever interests you. Each notebook is largely self-contained and does not depend on the others. 
 
@@ -23,28 +34,17 @@ The file ```preprocess_functions.py``` contains some basic functions for loading
 
 The directory ```intermediate_results``` contains some intermediate data used across notebooks. 
 
-### Installation Instructions 
-
-After cloning the repository to your machine, simply run the following commands from your terminal. 
-
-```
-make env
-source activate ct_env
-make test
-make run
-```
-
 ## Dataset 
 
 We used a database of 170,350 terrorist attacks from 1970 to 2016 created by researchers at the University of Maryland.
 
-The stored the data in the form of two CSV files in the 'data/' directory: 'globalterrorismdb_0617dist_1.csv' and 'globalterrorismdb_0617dist_2.csv'. The original dataset came as one large CSV file, but splitting it was necessary to upload to Github. Other than this split, we did not modify the contents of the CSV files.
+The stored the data in the form of two CSV files in the ```data/``` directory: ```globalterrorismdb_0617dist_1.csv``` and ```globalterrorismdb_0617dist_2.csv```. The original dataset came as one large CSV file, but splitting it was necessary to upload to Github. Other than this split, we did not modify the contents of the CSV files.
 
 #### Source
 
 The database is maintained by researchers at the National Consortium for the Study of Terrorism and Responses to Terrorism (START), headquartered at the University of Maryland. For more details, see [their website](http://start.umd.edu/gtd/). 
 
-We downloaded the data from a [Kaggle competition website](https://www.kaggle.com/abigaillarion/terrorist-attacks-in-united-states/data). 
+The data are also hosted on [Kaggle](https://www.kaggle.com/abigaillarion/terrorist-attacks-in-united-states/data). 
 
 #### Details 
 For convenience, we've copy-pasted information about the dataset from the Kaggle competition site. We highly recommend looking at the [GTD Codebook](http://www.start-dev.umd.edu/gtd/downloads/Codebook.pdf) for important details on data collection methodology, definitions, and coding schema.
@@ -77,4 +77,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Acknowledgments
 
-The authors would like to thank Professor Fernando Perez and our GSI Eli Ben-Michael for their support and guidance. We would also like to thank the START team at the University of Maryland for this fantastic dataset. 
+The authors would like to thank Professor Fernando Perez and our GSI Eli Ben-Michael for their support and guidance. We would also like to thank the START team at the University of Maryland for making this dataset freely available.
