@@ -8,7 +8,7 @@ In this project, we sought to analyze what factors lead terrorist attacks to suc
 
 **Authors**: Akhil Jalan, Paul Kim, Yakub Akhmenerov 
 
-{akhiljalan, yakubakh, luapkim} @berkeley.edu
+{akhiljalan, luapkim, yakubakh} @berkeley.edu
 
 ## Instructions 
 
