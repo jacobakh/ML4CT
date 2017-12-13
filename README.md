@@ -1,5 +1,6 @@
 # Machine Learning for Counterterrorism 
 
+todo todo ![](figures/table 1-1.png)
 
 ## Purpose  
 
