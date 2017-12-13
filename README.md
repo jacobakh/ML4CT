@@ -1,15 +1,29 @@
-# Deep Learning for Counterterrorism 
+# Machine Learning for Counterterrorism 
+
+
 
 ## Details 
 
-This is a final project for Statistics 159 during the Fall 2017. In this project, we blah blah blah ... (TODO)
+In this project, we sought to analyze what factors lead terrorist attacks to succeed, as well as historical trends and patterns in the database of terrorist attacks. 
 
 **Authors**: Akhil Jalan, Paul Kim, Yakub Akhmenerov 
 
 **Dataset**: 
 
+
+
 ## Instructions 
 
+### Installation Instructions 
+
+After cloning the repository to your local machine, simply run the following commands from your terminal. 
+
+TODO
+```
+make env
+source activate ct_env
+make run
+```
 
 
 This readme should be written by you, providing a high-level summary for newcomers of what the repository is about, what's where, and what to do to either read the main article or run the various analyses.
