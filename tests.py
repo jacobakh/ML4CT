@@ -1,6 +1,8 @@
 # A few simple tests
 
 import pandas as pd
+import warnings 
+
 from preprocess_functions import get_filepaths, load_raw_data, load_data_relevant_cols, get_dummies
 
 def correct_filenames(): 
@@ -80,6 +82,10 @@ def dummies_test():
 
 
 if __name__ == '__main__': 
+	#Suppresses the DtypeWarning from Pandas when we use a CSV with mixed data types. 
+	#It's safe to remove this line if you want. We included it to make output less confusing.
+	warnings.filterwarnings("ignore")
+
 	try: 
 		correct_filenames()
 		raw_data_loads()
