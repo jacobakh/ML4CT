@@ -18,7 +18,6 @@ In this project, we sought to analyze what factors lead terrorist attacks to suc
 
 After cloning the repository to your local machine, simply run the following commands from your terminal. 
 
-TODO
 ```
 make env
 source activate ct_env
