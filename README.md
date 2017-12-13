@@ -1,6 +1,6 @@
 # Machine Learning for Counterterrorism 
 
-todo todo ![](figures/table 1-1.png)
+![](figures/global_terrorism_gps.png)
 
 ## Purpose  
 
