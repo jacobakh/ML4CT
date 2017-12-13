@@ -46,3 +46,14 @@ def load_data_relevant_cols():
     '''
     raw = load_raw_data()
     return raw.drop(unused_cols, axis=1)
+
+def get_dummies(df, columns):
+    '''
+    Output: A Pandas dataframe which contains the one-hot-encoded versions 
+    of the categorical columns specified in 'columns', on the data frame df
+    '''
+    output = pd.get_dummies(df[columns[0]], prefix=columns[0])
+    for column in columns[1:]:
+        output = output.join(pd.get_dummies(df[column], prefix=column))
+    return output
+    
