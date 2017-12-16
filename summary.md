@@ -1,1 +1,1 @@
-* **[Machine Learning for Counterterrorism](http://berkeley-stat159-fall2017.github.io/project-3-p2-ak-ja-zh):** Predicting the success of terrorist attacks with machine learning models. By Akhil Jalan, Paul Kim, Yakub Akhmenerov.
+* **[Machine Learning for Counterterrorism](https://github.com/berkeley-stat159-f17/project-3-p2-ak-ja-zh):** Predicting the success of terrorist attacks with machine learning models. By Akhil Jalan, Paul Kim, Yakub Akhmenerov.
